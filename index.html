@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>导航</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-wrapper">
+        <section class="search-wrapper">
+            <form class="searchForm" method="get" action="https://www.baidu.com/s">
+                <input name="wd" type="text" class="search-input"></input>
+                <button type="submit" class="search-button">搜索</button>
+            </form>
+        </section>
+        <section class="favorites-wrapper">
+            <div class="operations">
+                <button onclick="addWeb()" class="add-web-btn">+网址</button>
+                <!--button onclick="" class="add-folder-btn">+文件夹</button-->
+                <!--button class="back-btn">返回</button-->
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>
